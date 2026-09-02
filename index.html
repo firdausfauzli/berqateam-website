@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -63,12 +64,15 @@
         <h2>Mari jadikan idea anda nyata.</h2>
         <p class="address"><strong>Berqateam Enterprise</strong><br>No. 1, Jalan Utama, Lembah Jaya Utara,<br>68000 Ampang, Selangor.</p>
         <div class="contact-links">
-          <a href="https://wa.me/60126472762" target="_blank" rel="noopener">012-647 2762</a>
-          <a href="mailto:berqateam99@gmail.com">berqateam99@gmail.com</a>
-          <a href="https://www.facebook.com/profile.php?id=100075845006100" target="_blank" rel="noopener">Facebook Berqateam</a>
-          <a href="https://www.tiktok.com/@berqateam?_r=1&_t=ZS-99OJmh20xSJ" target="_blank" rel="noopener">TikTok @berqateam</a>
+          <a href="https://wa.me/60126472762" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>012-647 2762</span></a>
+          <a href="mailto:berqateam99@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>berqateam99@gmail.com</span></a>
+          <a href="https://www.facebook.com/profile.php?id=100075845006100" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i><span>Facebook Berqateam</span></a>
+          <a href="https://www.tiktok.com/@berqateam?_r=1&_t=ZS-99OJmh20xSJ" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok" aria-hidden="true"></i><span>TikTok @berqateam</span></a>
         </div>
-        <a class="button map-button" href="https://maps.app.goo.gl/4yfZwdHMtYjD2ZHf8" target="_blank" rel="noopener">Dapatkan arah di Google Maps</a>
+        <div class="map-actions">
+          <a class="button map-button" href="https://maps.app.goo.gl/4yfZwdHMtYjD2ZHf8" target="_blank" rel="noopener">Google Maps</a>
+          <a class="button waze-button" href="https://waze.com/ul/hw283uhzu4" target="_blank" rel="noopener">Buka Waze</a>
+        </div>
       </div>
       <div class="hours-card">
         <span class="eyebrow">Waktu operasi</span>
@@ -84,10 +88,14 @@
 
   <footer>
     <img src="assets/logo.jpg" alt="" />
-    <p>© <span id="year"></span> Berqateam Enterprise. Creative! Fast! Cheap!</p>
+    <p>Berqateam Enterprise. Creative! Fast! Cheap!</p>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/60126472762?text=Hai%20Berqateam%2C%20saya%20ingin%20bertanya%20tentang%20servis%20printing." target="_blank" rel="noopener" aria-label="Hubungi Berqateam melalui WhatsApp">WA</a>
+  <div class="social-floats" aria-label="Media sosial Berqateam">
+    <a class="social-float whatsapp" href="https://wa.me/60126472762?text=Hai%20Berqateam%2C%20saya%20ingin%20bertanya%20tentang%20servis%20printing." target="_blank" rel="noopener" aria-label="Hubungi Berqateam melalui WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+    <a class="social-float facebook" href="https://www.facebook.com/profile.php?id=100075845006100" target="_blank" rel="noopener" aria-label="Buka Facebook Berqateam"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+    <a class="social-float tiktok" href="https://www.tiktok.com/@berqateam?_r=1&_t=ZS-99OJmh20xSJ" target="_blank" rel="noopener" aria-label="Buka TikTok Berqateam"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

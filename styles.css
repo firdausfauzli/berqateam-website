@@ -14,3 +14,18 @@
 .service-card h3{margin:13px 0 2px;color:#fff}
 .service-card p{color:#e8edf6;line-height:1.4}
 @media(max-width:600px){.logo-visual{min-height:390px}.logo-visual img{height:auto;border-radius:0}.service-card{min-height:210px;padding:16px}}
+.whatsapp-float{display:none}
+.social-floats{position:fixed;right:22px;bottom:22px;display:flex;flex-direction:column;gap:10px;z-index:5}
+.social-float{width:56px;height:56px;display:grid;place-items:center;border-radius:50%;color:#fff;font-weight:800;box-shadow:0 12px 30px rgba(15,25,45,.25);transition:.2s transform}
+.social-float i{font-size:1.65rem}
+.social-float:hover{transform:translateY(-3px)}
+.social-float.whatsapp{background:#25d366}
+.social-float.facebook{background:#1877f2}
+.social-float.tiktok{background:#111}
+@media(max-width:600px){.social-floats{right:14px;bottom:14px}.social-float{width:50px;height:50px}}
+.map-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.map-actions .map-button{margin-top:0}
+.waze-button{background:var(--ink);color:#fff}
+.contact-links{gap:12px}
+.contact-links a{display:flex;align-items:center;gap:12px}
+.contact-links i{width:22px;text-align:center;font-size:1.15rem}

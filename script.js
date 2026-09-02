@@ -15,5 +15,4 @@ const services=[
   ["GF","Gift","Hadiah custom untuk hari istimewa","gift.webp"]
 ];
 const grid=document.querySelector("#serviceGrid");
-grid.innerHTML=services.map(([icon,name,desc,image])=>`<a class="service-card" style="background-image:url('assets/services/${image}')" href="https://wa.me/60126472762?text=${encodeURIComponent(`Hai Berqateam, saya ingin bertanya harga untuk ${name}.`)}" target="_blank" rel="noopener"><span class="service-icon">${icon}</span><h3>${name}</h3><p>${desc}</p></a>`).join("");
-document.querySelector("#year").textContent=new Date().getFullYear();
+grid.innerHTML=services.map(([,name,desc,image])=>`<a class="service-card" style="background-image:url('assets/services/${image}')" href="https://wa.me/60126472762?text=${encodeURIComponent(`Hai Berqateam, saya ingin bertanya harga untuk ${name}.`)}" target="_blank" rel="noopener"><h3>${name}</h3><p>${desc}</p></a>`).join("");
